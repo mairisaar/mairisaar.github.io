@@ -50,6 +50,9 @@
 }
 
 .nav {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
     position: sticky; /*see koos j;rgmisega aitab luua sticky menyy*/
@@ -60,7 +63,7 @@
     text-align: center;
     display: flex;
     justify-content: space-around;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.8);
     height: 60px;
     line-height: 60px;
 }
@@ -113,14 +116,9 @@
     margin-top: 30px;
     overflow: auto;
 }
-/*
-.work-img, .work-text {
-    height: 90%;
-    margin: auto;
-}
-*/
+
 .work-img {
-    width: 100px;
+    width: 300px;
     height: 300px;
 }
 
@@ -133,6 +131,7 @@
 
 .work-text {
     margin-left: 10px;
+    width: 70%;
 }
 
 .work-text h2 {
@@ -144,16 +143,52 @@
     margin-top: 30px;
 }
 
-footer {
+.footer-content {
+    margin-top: 100px;
     height: 300px;
+    /*background-color: rgba(232, 23, 93, 0.2);*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 60px;
 }
 
-.footer-nav {
-    position: absolute;
-    right: 10px;
-    top: 200px;
-    width: 50%;
+.footer-nav ul {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footer-nav li{
+    list-style-type: none;
     font-size: 24px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #363636;
+}
+
+.footer-nav a:hover {
+    color: #CC527A;
+}
+
+.footer-text a {
+    text-decoration: none;
+}
+
+.footer-text h1 {
+    border: #CC527A 1px solid;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.footer-text h1:hover {
+    box-shadow: 5px 5px 20px 5px rgba(54,54,54,0.2);
 }
 
 @media screen and (max-width: 740px) {
@@ -166,10 +201,16 @@ footer {
     }
     
     .work-img {
-        width: 90%;
+        width: 100%;
         margin-bottom: 10px;
     }
 
-    
+    .work-text {
+        width: 90%;
+    }
+
+    .footer-text h1 {
+        font-size: 36px;
+    }
 
 }
