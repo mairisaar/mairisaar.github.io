@@ -62,7 +62,7 @@
 
 .nav a {
     text-decoration: none;
-    color: #CC527A;
+    color: #ffffff;
 }
 
 .nav a:hover {
@@ -191,7 +191,7 @@
 @media screen and (max-width: 740px) {
 
     .banner {
-        height: 60vh;
+        height: 65vh;
     }
     
     .work-card {
