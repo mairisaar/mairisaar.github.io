@@ -22,7 +22,7 @@
 }
 
 .banner {
-    height: 40vh;
+    height: 50vh;
 }
 
 .banner h1 {
@@ -37,7 +37,7 @@
 
 
 .nav {
-    width: 100vw;
+    width: 98vw;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -191,7 +191,7 @@
 @media screen and (max-width: 740px) {
 
     .banner {
-        height: 50vh;
+        height: 60vh;
     }
     
     .work-card {
