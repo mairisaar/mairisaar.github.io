@@ -32,6 +32,7 @@
 
 .banner p {
     text-align: center;
+    margin-bottom: 10px;
 }
 
 /*.banner {
@@ -63,7 +64,7 @@
 } */
 
 .nav {
-    width: 80vw;
+    width: 100vw;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -76,7 +77,8 @@
     text-align: center;
     display: flex;
     justify-content: space-around;
-    background-color: rgba(255, 255, 255, 0.8);
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    background-color: rgba(54, 54, 54, 0.8);
     height: 60px;
     line-height: 60px;
 }
@@ -88,11 +90,11 @@
 
 .nav a {
     text-decoration: none;
-    color: #363636;
+    color: #CC527A;
 }
 
 .nav a:hover {
-    color: #CC527A;
+    color: antiquewhite;
 }
 
 .content {
@@ -105,6 +107,10 @@
 .content a {
     color: #CC527A;
     text-decoration: none;
+}
+
+.content a:hover {
+    color: #363636;
 }
 
 .content ul li {
@@ -156,7 +162,6 @@
 .footer-content {
     margin-top: 100px;
     height: 300px;
-    /*background-color: rgba(232, 23, 93, 0.2);*/
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -175,7 +180,7 @@
     list-style-type: none;
     font-size: 24px;
     display: inline-block;
-    margin: 10px;
+    margin: 20px;
 }
 
 .footer-nav a {
@@ -201,14 +206,24 @@
 }
 
 .button p:hover {
-    /*box-shadow: 5px 5px 20px 5px rgba(54,54,54,0.2);*/
-    padding: 22px;
+    box-shadow: 5px 5px 20px 5px rgba(54,54,54,0.2);
+    border: #363636 1px solid;
+    color: #CC527A;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-start;
 }
 
 
 
 @media screen and (max-width: 740px) {
 
+    .banner {
+        height: 50vh;
+    }
+    
     .work-card {
         display: flex;
         flex-direction: column;
@@ -225,8 +240,8 @@
         width: 90%;
     }
 
-    .button h1 {
-        font-size: 36px;
+    .content h2 {
+        font-size: 30px;
     }
 
 }
