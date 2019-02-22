@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-.heading{
+.heading {
     font-family: 'Jura', sans-serif;
     font-size: 60px;
     font-weight: 300;
@@ -14,7 +14,7 @@
     margin-top: 100px;
 }
 
-.text{
+.text {
     font-family: 'Scope One', serif;
     font-size: 24px;
     color: #363636;
@@ -66,7 +66,7 @@
 }
 
 .nav a:hover {
-    color: antiquewhite;
+    border-bottom: 1px solid #ffffff;
 }
 
 .content {
