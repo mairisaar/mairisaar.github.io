@@ -42,7 +42,7 @@
     margin-right: auto;
     display: flex;
     flex-direction: column;
-    position: sticky; /*see koos j;rgmisega aitab luua sticky menyy*/
+    position: sticky; /*see koos jargmisega aitab luua sticky menyy*/
     top: 0;/*ilma selleta sticky menyy ei toimi*/
 }
 
@@ -96,7 +96,7 @@
 
 .work-card {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     width: 100%;
     height: 400px;
     border-bottom: 1px solid #CC527A;
@@ -180,7 +180,7 @@
 .button p:hover {
     box-shadow: 5px 5px 20px 5px rgba(54,54,54,0.2);
     border: #363636 1px solid;
-    color: #CC527A;
+    /*color: #CC527A;*/
 }
 
 .button-container {
