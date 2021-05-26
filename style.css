@@ -24,11 +24,13 @@
 
 .banner {
     height: 20vh;
+    background-color: #3A4148;
 }
 
 .banner h1 {
     text-align: center;
     font-size: 64px;
+    color: #D2C7C4;
 }
 
 .banner p {
