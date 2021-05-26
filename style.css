@@ -137,10 +137,13 @@
 
 .mumm {
     position: relative;
-    background-color: rgba(237, 162, 145, 0.6);
-    border-radius: 50%;
     /*display: flex;
     align-items: center;*/
+}
+
+.mumm-1, .mumm-2, .mumm-3 {
+    background-color: rgba(237, 162, 145, 0.6);
+    border-radius: 50%;
 }
 
 .mumm-1 {
