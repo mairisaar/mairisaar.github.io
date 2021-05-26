@@ -63,7 +63,8 @@
 
 .nav a {
     text-decoration: none;
-    color: #EDA291;
+    color: #3A4148;
+    text-transform: uppercase;
 }
 
 .nav a:hover {
