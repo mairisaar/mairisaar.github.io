@@ -134,6 +134,7 @@
 }
 
 .mumm {
+    position: relative;
     background-color: rgba(237, 162, 145, 0.6);
     border-radius: 50%;
     display: flex;
@@ -141,16 +142,19 @@
 }
 
 .mumm-1 {
+    position:absolute;
     width: 400px;
     height: 400px;
 }
 
 .mumm-2 {
+    position:absolute;
     width: 300px;
     height: 300px;
 }
 
 .mumm-3 {
+    position:absolute;
     width: 200px;
     height: 200px;
 }
