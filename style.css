@@ -135,19 +135,19 @@
     margin-top: 30px;
 }
 
-.mumm {
+/*.mumm {
     position: relative;
     /*display: flex;
-    align-items: center;*/
+    align-items: center;
 }
-
+*/
 .mumm-1, .mumm-2, .mumm-3 {
     background-color: rgba(237, 162, 145, 0.6);
     border-radius: 50%;
 }
 
 .mumm-1 {
-    position:absolute;
+    /*position:absolute;*/
     width: 500px;
     height: 500px;
     left: 470px;
@@ -155,7 +155,7 @@
 }
 
 .mumm-2 {
-    position:absolute;
+    /*position:absolute;*/
     width: 400px;
     height: 400px;
     left: 520px;
@@ -163,7 +163,7 @@
 }
 
 .mumm-3 {
-    position:absolute;
+    /*position:absolute;*/
     width: 300px;
     height: 300px;
     left: 570px;
