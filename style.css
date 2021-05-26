@@ -133,6 +133,28 @@
     margin-top: 30px;
 }
 
+.mumm {
+    background-color: rgba(237, 162, 145, 0.6);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.mumm-1 {
+    width: 400px;
+    height: 400px;
+}
+
+.mumm-2 {
+    width: 300px;
+    height: 300px;
+}
+
+.mumm-3 {
+    width: 200px;
+    height: 200px;
+}
+
 .footer-content {
     margin-top: 100px;
     height: 300px;
