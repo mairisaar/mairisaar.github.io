@@ -12,6 +12,7 @@
     color: #3A4148;
     margin-bottom: 36px;
     margin-top: 24px;
+    text-align: center;
 }
 
 .text {
@@ -50,7 +51,7 @@
     text-align: center;
     display: flex;
     justify-content: space-around;
-    background-color: rgba(54, 54, 54, 0.6);
+    background-color: rgba(249, 114, 78, 0.6);
     height: 64px;
     line-height: 64px;
 }
