@@ -12,7 +12,7 @@
     color: #3A4148;
     margin-bottom: 36px;
     margin-top: 24px;
-    text-align: center;
+    text-align: left;
 }
 
 .text {
@@ -28,9 +28,11 @@
 }
 
 .banner h1 {
+    display: flex;
     text-align: center;
-    font-size: 64px;
+    font-size: 36px;
     color: #D2C7C4;
+    align-items: flex-start;
 }
 
 .banner p {
