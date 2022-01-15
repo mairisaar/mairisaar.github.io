@@ -10,8 +10,8 @@
     font-size: 40px;
     font-weight: 400;
     color: #3A4148;
-    margin-bottom: 36px;
-    margin-top: 24px;
+    /*margin-bottom: 36px;
+    margin-top: 24px;*/
     text-align: left;
 }
 
@@ -27,10 +27,10 @@
     background-color: #3A4148;
 }
 
-.banner h1 {
+.banner-text {
     display: flex;
-    text-align: center;
-    font-size: 40px;
+    /*text-align: center;*/
+    font-size: 64px;
     color: #D2C7C4;
     align-items: flex-start;
 }
@@ -48,7 +48,7 @@
 .nav ul {
     text-align: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     background-color: rgba(237, 162, 145, 0.6);
     height: 64px;
     line-height: 64px;
